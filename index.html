@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Test</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" href="fonts/font-awesome.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/font-awesome.min.css">
+	<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row mainBlock">
+
+			<div class="infoBlock col-sm-12 col-md-5 col-md-push-4">
+				<h2 class="infoBlock__title">Headline modal window</h1>
+				<h2 class="infoBlock__title">Headline main content</h1>
+				<div class="row">
+					<h3 class="infoBlock__sub-title col-md-6">Secendory Headline
+					</h3>
+					<h3 class="infoBlock__sub-title col-md-6">List Headline
+					</h3>
+					<p class="col-md-12 infoBlock__paragraf">ProTradeFx gives access to its services and website to customers that agree to its terms and conditions.</p>
+					<p class="col-md-12 infoBlock__paragraf">Any limits or hindrances, which we may consent to in writing, and any market, legal, regulatory, or </p>
+					<h4 class="col-md-12 infoBlock__sub-title_small">Small Headline</h4>
+					<p class="col-md-12 infoBlock__text-warning">Risk warning: trading contracts for differences (“cfd’s”) and foreign exchange (forex) and use of the trading platform which allows high leverage investments in cfd’s and forex carries a high level of risk to your investment. Make sure you fully understand the risks involved and take advice if necessary.</p>
+				</div>
+			</div>
+			
+			<div class="formBlock col-sm-12 col-md-3 col-md-push-4">
+				<form class="formClientBlock" action="#" method="post">
+					<span class="formClientBlock__hint">Full Name</span>
+					<input type="email" name="mail" placeholder="Email" class="formClientBlock__inp">
+					<input type="password" name="userpassword" placeholder="Password" class="formClientBlock__inp">
+					<div class="selectBlock formClientBlock__inp">
+						<select name="currencyList" id="" size="1" class="selectBlock__item">
+							<option value="val1" class="formClientBlock__item">340542 (EUR) MT4</option>
+							<option value="val2" class="formClientBlock__item">340545 (DOL) MT5</option>
+							<option value="val3" class="formClientBlock__item">340547 (POD) MT6</option>
+							<option value="val4" class="formClientBlock__item">340555 (UAH) MT7</option>
+							<option value="val5" class="formClientBlock__item">340533 (JEN) MT8</option>
+						</select>
+					</div>
+					<div class="inputCurrency">
+						<input type="text" class="formClientBlock__inp formClientBlock__inp-small" placeholder="Enter amount">
+					</div>
+					<div class="selectBlock_link formClientBlock__inp">
+						<select name="linkList" id="" size="1" class="selectBlock__item">
+							<option value="val1" class="formClientBlock__item">Show All</option>
+							<option value="val2" class="formClientBlock__item">Link 1</option>
+							<option value="val3" class="formClientBlock__item">Link 2</option>
+							<option value="val4" class="formClientBlock__item">Link 3</option>
+						</select>
+					</div>
+					<input type="checkbox" id="rememberMe" class="formBlock__checkbox" name="subscribe" value="Remember Me">
+					<label for="rememberMe" class="formBlock__label">Remember Me</label>
+				</form>
+				
+			</div>
+
+			<div class="buttonBlock col-sm-12 col-md-4 col-md-pull-8">
+				<div class="btnBlockContent">
+					<div class="btnString">
+						<button id="openModal1" class="col-sm-12 col-md-5 btnString__btn">Modal1</button>
+						<button id="openModal2" class="col-sm-12 col-md-5 col-md-offset-1 btnString__btn">Modal2</button>
+					</div>
+					<div class="btnString">
+						<button class="col-sm-8 col-md-4 btnString__btn">deposit</button>
+						<button class="col-sm-8 col-md-4 col-md-offset-2 btnString__btn">deposit</button>
+					</div>
+					<div class="btnString">
+						<button class="col-sm-6 col-md-3 btnString__btn">button</button>
+						<button class="col-sm-6 col-md-3 col-md-offset-3 btnString__btn">button</button>
+					</div>
+				</div>
+				<div class="signinBlock">
+					<a href="#" class="col-sm-8 col-md-6 signinBlock__link">sign in</a>
+					<a href="#" class="col-sm-8 col-md-6 signinBlock__link">sign in</a>
+				</div>
+				<div class="headlinkBlock">
+					<a href="#" class="col-sm-8 col-md-6 headlinkBlock__link">Headlin Link</a>
+					<a href="#" class="col-sm-8 col-md-6 headlinkBlock__link">Headlin Link</a>
+				</div>
+				<div class="linkBlock">
+					<a href="#" class="col-sm-8 col-md-6 linkBlock__link">Link 01</a>
+					<a href="#" class="col-sm-8 col-md-6 linkBlock__link">Link 01</a>
+				</div>
+				<div class="linkBlock">
+					<a href="#" class="col-sm-8 col-md-6 linkBlock__link">Link 02</a>
+					<a href="#" class="col-sm-8 col-md-6 linkBlock__link">Link 02</a>
+				</div>
+				<div class="texlinkBlock">
+					<a href="#" class="col-sm-8 col-md-6 col-md-offset-6 texlinkBlock__link">Text Link </a>
+				</div>
+				<div class="texlinkBlock">
+					<a href="#" class="col-sm-8 col-md-6 col-md-offset-6 texlinkBlock__link">Text Link </a>
+				</div>
+				<div class="arrowBlock">
+					<a href="#" class="col-sm-8 col-md-6 arrowBlock__item"> </a>
+					<a href="#" class="col-sm-8 col-md-6 arrowBlock__item"> </a>
+				</div>
+				<div class="writeBlock">
+					<a href="#" class="col-sm-8 col-md-6 writeBlock__item">
+					</a>
+					<a href="#" class="col-sm-8 col-md-6 writeBlock__item">
+					</a>
+				</div>
+			</div>
+		</div>
+
+		<div class="col-xs-12 col-md-5 col-md-offset-4 tabsBlock">
+			<ul class="nav nav-tabs">
+				<li class="active tabsBlock__item">
+					<a href="#column01" data-toggle="tab" class="tabsBlock__link">Tab 01</a>
+				</li>
+				<li class="tabsBlock__item">
+					<a href="#column02" data-toggle="tab" class="tabsBlock__link">Tab 02</a>
+				</li>
+				<li class="tabsBlock__item">
+					<a href="#column03" data-toggle="tab" class="tabsBlock__link">Tab 03</a>
+				</li>
+			</ul>
+			<div class="tab-content">
+				<div id="column01" class="tab-pane fade in active">
+					<table class="table__list">
+						<tr class="table__string">
+							<th class="table__item_title">Column 01</th>
+							<th class="table__item_title">Column 02</th>
+							<th class="table__item_title">Column 03</th>
+						</tr>
+						<tr class="table__string">
+							<td class="table__item">Link 01</td>
+							<td class="table__item">leo@leo.com</td>
+							<td class="table__item">$4,0000.00</td>
+						</tr>
+						<tr class="table__string">
+							<td class="table__item">Link 02</td>
+							<td class="table__item">leo@leo.com</td>
+							<td class="table__item">$4,0000.00</td>
+						</tr>
+						<tr class="table__string">
+							<td class="table__item">Link 03</td>
+							<td class="table__item">leo@leo.com</td>
+							<td class="table__item">$4,0000.00</td>
+						</tr>
+					</table>
+				</div>
+				<div id="column02" class="tab-pane fade">
+					<table class="table__list">
+						<tr class="table__string">
+							<th class="table__item_title">Column 04</th>
+							<th class="table__item_title">Column 05</th>
+							<th class="table__item_title">Column 06</th>
+						</tr>
+						<tr class="table__string">
+							<td class="table__item">Link 04</td>
+							<td class="table__item">leo@leo.com</td>
+							<td class="table__item">$8,0000.00</td>
+						</tr>
+						<tr class="table__string">
+							<td class="table__item">Link 05</td>
+							<td class="table__item">leo@leo.com</td>
+							<td class="table__item">$8,0000.00</td>
+						</tr>
+						<tr class="table__string">
+							<td class="table__item">Link 06</td>
+							<td class="table__item">leo@leo.com</td>
+							<td class="table__item">$8,0000.00</td>
+						</tr>
+					</table>
+				</div>
+				<div id="column03" class="tab-pane fade">
+					<table class="table__list">
+						<tr class="table__string">
+							<th class="table__item_title">Column 09</th>
+							<th class="table__item_title">Column 10</th>
+							<th class="table__item_title">Column 11</th>
+						</tr>
+						<tr class="table__string">
+							<td class="table__item">Link 09</td>
+							<td class="table__item">leo@leo.com</td>
+							<td class="table__item">$12,0000.00</td>
+						</tr>
+						<tr class="table__string">
+							<td class="table__item">Link 10</td>
+							<td class="table__item">leo@leo.com</td>
+							<td class="table__item">$12,0000.00</td>
+						</tr>
+						<tr class="table__string">
+							<td class="table__item">Link 11</td>
+							<td class="table__item">leo@leo.com</td>
+							<td class="table__item">$12,0000.00</td>
+						</tr>
+					</table>
+				</div>
+			</div>
+		</div>
+		<div class="col-xs-12 col-md-1 statusBlock">
+			<ul class="statusBlock__list">
+				<li class="col-xs-4 col-md-12 statusBlock__item">approved</li>
+				<li class="col-xs-4 col-md-12 statusBlock__item">denied</li>
+				<li class="col-xs-4 col-md-12 statusBlock__item">pending</li>
+			</ul>
+		</div>
+
+		<nav aria-label="Нумерация страниц" class="col-xs-12 col-md-4 col-md-offset-4 paginationBlock">
+		    <ul class="pagination paginationBlock__list">
+		        <li class="paginationBlock__item">
+		        	<a class="paginationBlock__link" arial-label="Previous" href="#">
+		        		<span aria-idden="true"> < </span>
+		        	</a>
+		        </li>
+		        <li class="paginationBlock__item active">
+		        	<a class="paginationBlock__link" href="#">1</a>
+		        </li>
+		        <li class="paginationBlock__item">
+		        	<a class="paginationBlock__link" href="#">2</a>
+		        </li>
+		        <li class="paginationBlock__item">
+		        	<a class="paginationBlock__link" href="#">3</a>
+		        </li>
+		        <li class="paginationBlock__item">
+		        	<a class="paginationBlock__link" href="#">4</a>
+		        </li>
+		        <li class="paginationBlock__item">
+		        	<a class="paginationBlock__link" href="#">5</a>
+		        </li>
+		        <li class="paginationBlock__item">
+		        	<a class="paginationBlock__link" arial-label="Next" href="#">
+		        		<span aria-idden="true"> > </span>
+		        	</a>
+		        </li>
+		    </ul>
+		</nav>
+		<div class="col-xs-12 col-md-3 col-md-offset-9 metallCourseBlock">
+			<ul>
+				<li class="col-xs-6 colmd-6  metallCourseBlock___item_silv">
+					<i class="fa fa-long-arrow-up metallCourseBlock__arrow" aria-hidden="true"></i>
+					<p class="metallCourseBlock__title">silver</p>
+					<p class="metallCourseBlock__price">16.616|16.658</p>
+				</li>
+				<li class="col-xs-6 colmd-6 metallCourseBlock___item_gold">
+					<i class="fa fa-long-arrow-down metallCourseBlock__arrow" aria-hidden="true"></i>
+					<p class="metallCourseBlock__title">gold</p>
+					<p class="metallCourseBlock__price">12.112|12.245</p>
+				</li>
+			</ul>
+		</div>	
+
+		<div class="col-xs-12 col-md-12 fixedOverlay fixedOverlayBlock" id="modalWindow1">
+	        <div class="modalBlockWindow"> 
+	        	<form class="formModalBlockWindow" action="#" method="post">
+		        	<h3 class="formModalBlockWindow__title">Modal Window 1</h3>
+		        	<span class="formModalBlockWindow__close">X</span>
+			        <input type="email" name="mail" placeholder="Email" class="col-xs-12 col-md-6 formModalBlockWindow__inp">
+					<input type="password" name="userpassword" placeholder="Password" class="col-xs-12 col-md-6 formModalBlockWindow__inp">
+					<input type="text" name="name" placeholder="Name" class="col-xs-12 col-md-6 formModalBlockWindow__inp">
+					<input type="text" name="seconName" placeholder="Second Name" class="col-xs-12 col-md-6 formModalBlockWindow__inp">
+					<select name="currencyList" id="" size="1" class="selectBlock">
+						<option value="val1" class="selectBlock__item">340542 (EUR) MT4</option>
+						<option value="val2" class="selectBlock__item">340545 (DOL) MT5</option>
+						<option value="val3" class="selectBlock__item">340547 (POD) MT6</option>
+						<option value="val4" class="selectBlock__item">340555 (UAH) MT7</option>
+						<option value="val5" class="selectBlock__item">340533 (JEN) MT8</option>
+					</select>
+					<input type="submit" value="Отправить" class="formModalBlockWindow__btn">
+				</form>
+	        </div>
+		</div>	
+
+		<div class="col-xs-12 col-md-12 fixedOverlay fixedOverlayBlock" id="modalWindow2">
+	        <div class="modalBlockWindow"> 
+	        	<form class="formModalBlockWindow" action="#" method="post">
+		        	<h3 class="formModalBlockWindow__title">Modal Window 2</h3>
+		        	<span class="formModalBlockWindow__close">X</span>
+			        <input type="email" name="mail" placeholder="Email" class="col-xs-12 col-md-4 formModalBlockWindow__inp">
+					<input type="password" name="userpassword" placeholder="Password" class="col-xs-12 col-md-4 formModalBlockWindow__inp">
+					<input type="text" name="name" placeholder="Name" class="col-xs-12 col-md-4 formModalBlockWindow__inp">
+					<select name="currencyList" id="" size="1" class="selectBlock">
+						<option value="val1" class="selectBlock__item">340542 (EUR) MT4</option>
+						<option value="val2" class="selectBlock__item">340545 (DOL) MT5</option>
+						<option value="val3" class="selectBlock__item">340547 (POD) MT6</option>
+						<option value="val4" class="selectBlock__item">340555 (UAH) MT7</option>
+						<option value="val5" class="selectBlock__item">340533 (JEN) MT8</option>
+					</select>
+					<input type="submit" value="Отправить" class="formModalBlockWindow__btn">
+				</form>
+	        </div>
+		</div>	
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
